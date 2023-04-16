@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item,
+.new-todo {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.delete-todo,
+.add-todo,
+.todo-input {
+  outline: none;
+  border: none;
+  height: max-content;
+  padding: 6px 1rem;
+  border-radius: 30px;
+}
